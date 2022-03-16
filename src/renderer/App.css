@@ -1,0 +1,108 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import './View/Authentication/authStyles.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './Components/Loader/LoaderStyle.scss';
+@import './View/CreateOrganization/createOrganization.scss';
+@import './View/createProject/createProject.scss';
+@import './Style/index.scss';
+@import "frappe-gantt/dist/frappe-gantt.css";
+
+
+
+.jc{
+  justify-content:center;
+}
+.ai{
+  align-items:center;
+}
+
+
+
+
+
+@font-face {
+  font-family: Manrope;
+  src: url(../../assets/fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap) format('truetype');
+}
+
+
+@font-face {
+  font-family: AntDesign;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/AntDesign.ttf) format('truetype');
+}
+@font-face {
+  font-family: Entypo;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Entypo.ttf) format('truetype');
+}
+@font-face {
+  font-family: EvilIcons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/EvilIcons.ttf) format('truetype');
+}
+@font-face {
+  font-family: Feather;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Feather.ttf) format('truetype');
+}
+@font-face {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/FontAwesome.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Foundation;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Foundation.ttf) format('truetype');
+}
+@font-face {
+  font-family: Ionicons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Ionicons.ttf) format('truetype');
+}
+@font-face {
+  font-family: MaterialCommunityIcons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/MaterialCommunityIcons.ttf) format('truetype');
+}
+@font-face {
+  font-family: MaterialIcons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/MaterialIcons.ttf) format('truetype');
+}
+@font-face {
+  font-family: Octicons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Octicons.ttf) format('truetype');
+}
+@font-face {
+  font-family: SimpleLineIcons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/SimpleLineIcons.ttf) format('truetype');
+}
+@font-face {
+  font-family: Zocial;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/Zocial.ttf) format('truetype');
+}
